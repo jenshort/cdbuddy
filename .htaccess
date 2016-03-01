@@ -1,0 +1,9 @@
+RewriteEngine on
+#RewriteBase /
+#RewriteCond %{HTTP_HOST} ^(scsdev\.)?cit.jmu\.
+#RewriteCond %{REQUEST_URI} !^/(public|vendor|app)/
+#RewriteRule ^(.*)$ /sierra-sql/public/$1 [L]
+
+Options -Indexes
+
+
